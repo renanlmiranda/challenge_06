@@ -1,0 +1,15 @@
+###Get
+GET http://localhost:3333/transactions
+content-type: application/json
+
+
+###Post
+POST http://localhost:3333/transactions
+content-type: application/json
+
+{
+  "title": "Salario",
+  "type": "outcome",
+  "value": 500,
+  "category": "Radical"
+}
